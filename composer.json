@@ -1,0 +1,23 @@
+{
+    "name": "undeadline/paymentor",
+    "description": "Package for payment handling",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny Mishanin",
+            "email": "ermak321@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "yoomoney/yookassa-sdk-php": "dev-master",
+        "ramsey/uuid": "^4.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Undeadline\\Paymentor\\": "src/"
+        }
+    }
+}
